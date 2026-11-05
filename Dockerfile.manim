@@ -16,6 +16,8 @@ RUN apt-get update \
         libpangocairo-1.0-0 \
         libpango1.0-dev \
         pkg-config \
+        # Native build tools (pycairo native extension compilation)
+        build-essential \
         # Fonts
         fonts-dejavu \
         fonts-liberation \
